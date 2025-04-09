@@ -80,9 +80,9 @@ public class Qes1_13 {
         
         //Q9
         name = "鈴木一郎";
-        age = 48;
-        height = 337.0;
-        weight = 128.4;
+        age = age + age;
+        height = height + height;
+        weight = weight + weight;
         favFood = "オムライス";
         
         System.out.println("初めまして" + name + "です");
