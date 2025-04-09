@@ -8,7 +8,7 @@ public class Qes4 {
 		for (int i = 1; i <= 9; i++) {
 			for (int j = 1; j <= 9; j++) {
 				int result = i * j;
-				System.out.printf("%03d * %03d = %03d", i, j, result);				
+				System.out.printf("%02d * %02d = %02d", i, j, result);				
 				if (j != 9) {
 					System.out.print(" || ");
 				}			

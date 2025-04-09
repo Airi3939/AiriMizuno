@@ -11,7 +11,7 @@ public class Qes5 {
 				System.out.printf("%03d * %03d = %03d", i, j, result);
 				//% フォーマットの開始, 0 空いてる桁を 0 で埋める, 3 3桁で表示するという指定, d 数値（整数）を表示
 				
-			if (i != 9) {
+			if (i != 20) {
 				System.out.print(" || ");
 				}
 			}		

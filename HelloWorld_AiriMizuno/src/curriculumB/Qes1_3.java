@@ -10,7 +10,6 @@ public class Qes1_3 {
 		 Scanner scanner = new Scanner(System.in); // 入力用のScannerを作成（定義している）
 		 Random random = new Random(); 
 		 //じゃんけんの 相手の手（コンピュータの手）をランダムに決定するために使用されています。
-
 		
 		 String userName = scanner.nextLine(); 
 		//scanner.nextLine() はユーザーの入力を文字列として受け取る
@@ -30,7 +29,6 @@ public class Qes1_3 {
 		} else {
 			System.out.println("ユーザー名「" + userName + "」を登録しました");
 			//正常な入力
-		}
 		
 		//Q3 無限ループ
 		
@@ -75,7 +73,7 @@ public class Qes1_3 {
 		} //while文から抜ける
 		// 勝つまでにかかった回数を表示
         System.out.println("勝つまでにかかった合計回数は" + rounds + "回です");
-        
+		}
         scanner.close();
         
 }}

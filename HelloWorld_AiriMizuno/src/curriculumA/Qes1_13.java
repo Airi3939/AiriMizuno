@@ -58,8 +58,8 @@ public class Qes1_13 {
         double bmi = weight / (heightInMeters * heightInMeters);
         //BMI = 体重(kg) ÷ (身長(m) × 身長(m))
         //身長は cm → m に変換する必要あり（÷100）
-        // BMI出力（小数点第2位まで表示）
-        System.out.printf("BMIは%.2fです%n", bmi);
+        // BMI出力（小数点第1位まで表示）
+        System.out.printf("BMIは%.1fです%n", bmi);
         
         //Q8
         // ここで再代入（新しい情報）
@@ -76,7 +76,7 @@ public class Qes1_13 {
         System.out.println("好きな食べ物は" + favFood + "です");
         heightInMeters = height / 100;
         bmi = weight / (heightInMeters * heightInMeters);
-        System.out.printf("BMIは%.2fです%n", bmi);
+        System.out.printf("BMIは%.1fです%n", bmi);
         
         //Q9
         name = "鈴木一郎";
