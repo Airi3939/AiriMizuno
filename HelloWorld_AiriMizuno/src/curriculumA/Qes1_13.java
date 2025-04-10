@@ -93,6 +93,9 @@ public class Qes1_13 {
         heightInMeters = height / 100;
         bmi = weight / (heightInMeters * heightInMeters);
         System.out.printf("BMIは%.2fです%n", bmi);
+        //"%.2f" → 少数第2位までの浮動小数点数を入れたいという意味。
+        //"%n" → 改行。
+        //後ろのbmi は、**"%.2f" という書式の中に差し込む値（＝置き換える実際の数値）
         
         //Q10
         System.out.println(age >= 25);
@@ -114,7 +117,7 @@ public class Qes1_13 {
         System.out.println(heightInt);
         
         //Q13
-        // 年齢が25以上もしくは身長が160以上ならtrueを出力（if文なし）
+        // 年齢が25歳もしくは身長が160以上ならtrueを出力（if文なし）
         System.out.println((ageInt == 25 || heightInt >= 160));
 	}
 
