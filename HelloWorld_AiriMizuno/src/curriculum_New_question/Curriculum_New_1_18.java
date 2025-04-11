@@ -22,6 +22,8 @@ public class Curriculum_New_1_18 {
 	}
 	//Q4
 	public static void multiply(double a, double b) {
+		//オーバーロード：同じクラスの中でメソッド名と戻り値の型が同じで、
+		//引数の型や数、並び順が違うメソッドを2つ以上定義すること
 		System.out.printf("%.1f%n", (a + b));
 	}
 	//Q5
