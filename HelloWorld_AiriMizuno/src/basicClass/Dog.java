@@ -2,8 +2,8 @@ package basicClass;
 
 public class Dog {
 	// フィールド（動物の名前と数）Q1,Q2
-    String name;
-    int count;
+	private String name;  // ← private にしてカプセル化
+    private int count;
 
     // コンストラクタ①：名前を「犬」にする
     public Dog() {
@@ -14,7 +14,16 @@ public class Dog {
     public Dog(int count) {
         this.count = count;
     }
-
+    
+    // 🔑 getter を追加することで、別クラスから値を取得できる
+    //なぜgetterを使うのか→Javaでは、
+    //外部のクラスから直接フィールドにアクセスするのは安全じゃないと考えられています（カプセル化の考え方）。
+    public String getName() {
+        return name;
+    }
+    public int getCount() {
+        return count;
+    }
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 
