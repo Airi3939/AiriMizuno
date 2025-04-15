@@ -38,10 +38,4 @@ public class LionProcess {
 		return this.speed;
 	}
 	
-	// 表示メソッド
-	public void printInfo() {
-		System.out.println("動物名：" + getName());
-		System.out.println("体長：" + getLength() + "m");
-		System.out.println("速度：" + getSpeed() + "kn/h");
-	}
 }
