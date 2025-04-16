@@ -52,9 +52,3 @@ public class Main {
     }
 }
 
-//scientificName.put("ライオン", "パンテラ レオ"); //値を追加・登録	put(key, value)
-//scientificName.put("ゾウ", "ロキソドンタ・サイクロティス");
-//scientificName.put("パンダ", "アイルロポダ・メラノレウカ");
-//scientificName.put("チンパンジー", "パン・トゥログロディテス");
-//scientificName.put("シマウマ", "チャップマンシマウマ");
-//scientificName.put("インコ", "不明");

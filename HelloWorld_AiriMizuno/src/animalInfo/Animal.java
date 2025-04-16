@@ -9,9 +9,6 @@ public class Animal {
 	private int speed;
 	private String scientificName;
 	//private このクラスの中だけで使える（他のクラスからアクセス不可）
-	//インスタンスではなくクラス全体で一つだけ共有される＝何個Animalを作っても、このマップは１つだけ
-	//一度代入したら変えられない（再代入できない）=別のMapに入れ替えることはできない
-	
 	
 	public Animal(String name, double height, int speed, String scientificName) {
         this.name = name;
